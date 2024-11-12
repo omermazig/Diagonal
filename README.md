@@ -2,7 +2,7 @@ Diagonal array Assignment
 
 Objective
 
-    Fix the existing `create_diagonals_array` function, to create a 2-dim array,
+    Debug and fix the existing `create_diagonals_array` function, to create a 2-dim array,
     that has 1s in both diagonals and 0s everywhere else.
 
 Examples:
