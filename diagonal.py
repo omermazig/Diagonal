@@ -5,12 +5,12 @@ def print_array(array):
 
 
 def create_diagonals_array(size):
-    array = [[[0] * size] * size]
+    array = [[0 for i in range(size)] for i in range(size)]
     print_array(array)
     row = 0
     for column in range(size):
         array[column][row] = 1
-        array[size - column][row] = 1
+        array[size - column - 1][row] = 1
         row += 1
     print_array(array)
     return array
